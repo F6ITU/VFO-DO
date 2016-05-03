@@ -1,58 +1,60 @@
 VFO-DO
 RF Generator, Kicad project
 
-VFO-DO est un générateur HF couvrant de quelques kHz à 100 MHz
-Il s'agit d'une idée originale de Gene Marcus W3PM/GM4YRE
-et publié dans un article de la revue QEX 
+VFO-DO est un gÃ©nÃ©rateur HF couvrant de quelques kHz Ã  100 MHz.
+
+Il s'agit d'une idÃ©e originale de Gene Marcus W3PM/GM4YRE
+publiÃ©e dans un article de la revue QEX
+
 http://www.arrl.org/files/file/QEX_Next_Issue/2015/Jul-Aug_2015/Marcus.pdf
 
 Ce projet Kicad n'est que la transposition dudit projet. 
 
-La propriété intellectuelle et les droits de publication appartiennent respectivement 
-à l'auteur et à la société de publication mentionnés
+La propriÃ©tÃ© intellectuelle et les droits de publication appartiennent respectivement 
+Ã  l'auteur et Ã  la sociÃ©tÃ© de publication mentionnÃ©s
 
 Ce projet Kicad poursuit deux buts : 
 
-- offrir à chaque débutant en électronique ou en radioélectricité les éléments nécessaires
-à la construction d'une source de fréquence excessivement stable (précise au Herz près, puisque pilotée par l'étalon césium
-de l'essaim de satellites GPS)... et surtout simple à construire -à assembler serait le terme le plus exact.
+- offrir Ã  chaque dÃ©butant en Ã©lectronique ou en radioÃ©lectricitÃ© les Ã©lÃ©ments nÃ©cessaires
+Ã  la construction d'une source de frÃ©quence excessivement stable (prÃ©cise au Herz prÃ¨s, puisque pilotÃ©e par l'Ã©talon cÃ©sium
+de l'essaim de satellites GPS)... et surtout simple Ã  construire -Ã  assembler serait le terme le plus exact.
 
-- étendre cette réalisation, après modification du firmware, avec un filtre 
+- Ã©tendre cette rÃ©alisation, aprÃ¨s modification du firmware, avec un filtre 
 
 https://github.com/F6ITU/FiltreU
 
-commuté de 8 bandes 
+commutÃ© de 8 bandes 
 
 https://github.com/F6ITU/octorelay
 
-qui éliminera en grande partie les harmoniques du générateur -lequel génère des signaux carrés-
+qui Ã©liminera en grande partie les harmoniques du gÃ©nÃ©rateur -lequel gÃ©nÃ¨re des signaux carrÃ©s-
 
-De cette manière, la pureté spectrale est largement suffisante pour satisfaire la majorité des 
-débutants en électronique "haute fréquence"
+De cette maniÃ¨re, la puretÃ© spectrale est largement suffisante pour satisfaire la majoritÃ© des 
+dÃ©butants en Ã©lectronique "haute frÃ©quence"
 
-Le filtre n'est absolument pas nécessaire si l'oscillateur est utilisé en guise de VFO, surtout dans 
-le cadre d'un mélangeur Tayloe ou assimilé. 
+Le filtre n'est absolument pas nÃ©cessaire si l'oscillateur est utilisÃ© en guise de VFO, surtout dans 
+le cadre d'un mÃ©langeur Tayloe ou assimilÃ©. 
 
-Cette réalisation peut également servir d'équipement de terrain, là ou le déplacement d'un oscillateur asservi
--équipement fragile et coûteux- est inenvisageable.
+Cette rÃ©alisation peut Ã©galement servir d'Ã©quipement de terrain, lÃ  ou le dÃ©placement d'un oscillateur asservi
+-Ã©quipement fragile et coÃ»teux- est inenvisageable.
 
-Plus d'informations sur le module oscillateur à base de SiLabs Si5351 
+Plus d'informations sur le module oscillateur Ã  base de SiLabs Si5351 
 https://learn.adafruit.com/adafruit-si5351-clock-generator-breakout?view=all
 
 une seconde source de ce module 
 
 https://www.sv1afn.com/si5351a.html
-Attention : ce dernier module n'est pas "pin compatible" avec le précédent
+Attention : ce dernier module n'est pas "pin compatible" avec le prÃ©cÃ©dent
 
 
 Le firmware originel de l'auteur 
 http://www.knology.net/~gmarcus/Si5351/Si5351_vfo_v5.ino.zip
 
-Un émetteur-récepteur WSPR conçu par l'auteur et utilisant ledit VFO-DO
+Un Ã©metteur-rÃ©cepteur WSPR conÃ§u par l'auteur et utilisant ledit VFO-DO
 http://www.knology.net/~gmarcus/Si5351/Si5351A_WSPR_XCVR.pdf
 
-NB : le coût du générateur gravite aux environ des 30 euros, le filtre se situant peu ou prou dans la 
-même zone de prix une fois tous les composants achetés. Cela fait oublier le bruit de phase
-de l'oscillateur, lequel est assez catastrophique, surtout si on le compare à celui d'un OCXO ou 
+NB : le coÃ»t du gÃ©nÃ©rateur gravite aux environ des 30 euros, le filtre se situant peu ou prou dans la 
+mÃªme zone de prix une fois tous les composants achetÃ©s. Cela fait oublier le bruit de phase
+de l'oscillateur, lequel est assez catastrophique, surtout si on le compare Ã  celui d'un OCXO ou 
 TCXO. 
 
