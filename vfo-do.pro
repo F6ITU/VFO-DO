@@ -1,4 +1,4 @@
-update=18/04/2016 18:42:08
+update=03/05/2016 19:23:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,12 +39,13 @@ LabSize=60
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=regul
-LibName6=display
-LibName7=arduino/arduino_nano
-LibName8=ULN/uln2803a
-LibName9=cmos4000
+LibName1=vfo-do-rescue
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=regul
+LibName7=display
+LibName8=arduino/arduino_nano
+LibName9=ULN/uln2803a
+LibName10=cmos4000
