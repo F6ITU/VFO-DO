@@ -1,4 +1,4 @@
-update=06/05/2016 11:58:07
+update=02/03/2017 18:09:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -49,4 +49,4 @@ LibName7=display
 LibName8=arduino/arduino_nano
 LibName9=ULN/uln2803a
 LibName10=cmos4000
-LibName11=C:/Users/Marco/Documents/Kicad/Libs&mods/libraries/sw-22x-PIN
+LibName11=C:/Users/Marco/Documents/Kicad/Projets/Kicad_Libraries/SW-22x-PIN/sw-22x-PIN

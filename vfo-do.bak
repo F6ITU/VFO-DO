@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:vfo-do-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +36,7 @@ F 3 "" H 7300 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-vfo-do RV1
 U 1 1 57138BF4
 P 9400 3950
 F 0 "RV1" H 9350 3800 50  0000 C CNN
